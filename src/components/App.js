@@ -10,7 +10,7 @@ import Switch from './Switch';
 
 class App extends Component {
 	state = {
-		circuitClosed: false, //
+		circuitClosed: false, 
 	};
 
 	handleCircuit = (e) => {
@@ -18,6 +18,10 @@ class App extends Component {
 			circuitClosed: !this.state.circuitClosed,
 		});
 	};
+
+	handleChangeOfSet = ()=>{
+		
+	}
 
 	render() {
 		//console.log(this.state.circuitClosed);

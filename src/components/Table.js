@@ -80,7 +80,7 @@ class TableCell extends Component {
 			return (
 				<div
 					className='table_cell_wire_angled'
-					style={{ transform: `rotate(-90deg)` }}
+					style={{ transform: `rotate(270deg)` }}
 				></div>
 			);
 		}
