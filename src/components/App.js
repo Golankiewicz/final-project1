@@ -38,14 +38,14 @@ class App extends Component {
 				<Table />
 				<button
 					onClick={this.handleCircuit}
-					style={{ marginLeft: '600px', marginTop: '100px', fontSize: '1rem' }}
+					style={{ marginLeft: '600px', marginTop: '45px', fontSize: '1rem' }}
 				>
 					{this.state.circuitClosed ? 'WYŁĄCZ OBWÓD' : 'WŁĄCZ OBWÓD'}
 				</button>
 				<br />
 				<button
 					onClick={() => window.location.reload(false)}
-					style={{ marginLeft: '620px', marginTop: '20px', fontSize: '1rem' }}
+					style={{ marginLeft: '620px', marginTop: '15px', fontSize: '1rem' }}
 				>
 					RESETUJ
 				</button>
